@@ -4,10 +4,14 @@
         <meta charset="utf-8">
         <title>Nick's Website</title>
         <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Display&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
+                <a id="title" href="#home">Nick Como</a>
                 <ul>
                     <li><a href="#home">Home</a> </li>
                     <li><a href="#about">About</a> </li>
@@ -17,10 +21,9 @@
             </nav>         
         </header>
         
-        <section id="home" style="height: 100vh;">
-            <div style="display: flex;">
+        <section class="home" id="home">
                 <div>
-                    <img src="./imgs/me.JPG" style="height: 250px;">
+                    <img src="./imgs/me.JPG">
                 </div>
 
                 <div>
@@ -28,62 +31,61 @@
                     <h2>fhsfhsfhsfh</h1>
                     <h2>sdsdsdkskk</h1>
                 </div>
-                
-            </div>
             
         </section>
 
-        <section id="about" style="height: 100vh;">
-            <div style="display: flex;">
+        <section class="about" id="about">
+            
                 <div>
                     <h1>About Me</h1>
                     <p>hsdsshdsjdjsdhwjwj</p>
                     <p>hsdhsdhshdhwjwj</p>
                 </div>
                 <div>
-                    <img src="./imgs/drums.jpeg" style="height:250px">
-                    <img src="./imgs/lifting.jpeg" style="height: 250px">
+                    <img src="./imgs/me2.jpg" >
+                    <img src="./imgs/me3.jpg" >
                 </div>
-            </div>
+            
         </section>
 
-        <section id="activities" style="height: 100vh;">
+        <section id="activities">
             <h1>Activities</h1>
-            <div style="display: flex;">
+        
                     <div>
-                        <img src="./imgs/drums.jpeg" style="height: 250px">
+                        <img src="./imgs/drums.jpeg" >
                         <h2>Drumming</h2>
                         <p>I like to play drums in my free time.</p>
                     </div>
                     <div>
-                        <img src="./imgs/lifting.jpeg" style="height: 250px">
+                        <img src="./imgs/lifting.jpeg" >
                         <h2>Working Out</h2>
                         <p>I like going to the gym.</p>
                     </div>
                     <div>
-                        <img src="./imgs/football.jpeg" style="height: 250px">
+                        <img src="./imgs/football.jpeg" >
                         <h2>Watching Football</h2>
                         <p>i like watching NFL and College Football</p>
                     </div>
-            </div>
+            
         </section>
 
-        <section id="contact" style="height: 100vh;">
-            <h1>Contact</h1>
+        <section id="contact" >
+            
+            <div> <img src="./imgs/nature.jpeg" alt="" ></div>
             <form action="mailto:dragonitejohnson@gmail.com" method="post" enctype="text/plain">
-                <div style="display: flex; flex-direction:column">
-                    <img src="./imgs/nature.jpeg" alt="" style="height: 300px;">
+                <div >
+                    <h1>Contact</h1>
                     <label for="">Name:</label>
-                    <input type="text" name="Your Name" placeholder="Enter Your Name Here">
+                    <input type="text" name="Your Name" placeholder="Enter Your Name Here"> <br>
                     <label for="">Email:</label>
-                    <input type="emIl" name="Your Email" placeholder="Enter Your Email Here">
-                    <label for="">Message:</label>
-                    <textarea name="Your Message" cols="50" rows="10" placeholder="Enter Your Message Here"></textarea>
+                    <input type="emIl" name="Your Email" placeholder="Enter Your Email Here"><br>
+                    <label for="">Message:</label> <br>
+                    <textarea name="Your Message" cols="50" rows="10" placeholder="Enter Your Message Here"></textarea> <br>
                     <input type="submit">
                 </div>
             </form>
         </section>
-
+        <footer></footer>
     </body>
     <script></script>
 </html>
