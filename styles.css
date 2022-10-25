@@ -50,6 +50,11 @@ a:hover{
     text-transform: uppercase;
 }
 
+form{
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
 /* Navbar */
 
 nav{
@@ -80,11 +85,66 @@ nav ul li{
 
 }
 
+.home .background-image{
+    border: 0px;
+    width: 100%;
+    height: 105%;
+    object-fit: cover;
+    position: absolute;
+}
+
 .home div{
     transform: translateY(64px);
     margin: 5%;
 }
 
-.about{
+.about div{
+        margin: 8%;
+}
 
+.activities{
+    display: block;
+    background-color: #FFACE5;
+    padding: 50px 0 100px 0;
+    text-align: center;
+
+}
+
+.activities .container{
+    display: flex;
+    margin: 0 8%;
+    justify-content: space-between;
+}
+
+.activities .container p{
+    padding: 0 8%;
+
+}
+
+.activities .container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.contact{
+    justify-content: center;
+    
+}
+
+.contact div{
+    margin: 5%;
+}
+
+footer{
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer a{
+    font-size: ;
 }
